@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="textbox">
+            <i class="fas fa-clipboard-check"></i>
+            <input type="text" name="" id="inp" placeholder="Enter your task">
+            <button onclick="newTask()"><i class="fas fa-plus"></i></button>
+        </div>
+        <div id="direct">
+            <a href="#" id="one"><i class="fas fa-check-double"></i>Complete All Task</a>
+            <a href="#" id="two">Clear Completed</a>
+        </div>
+        <hr>
+        <ul  id="tasks">
+            <li>1<i class="far fa-times-circle"></i></li>
+            <li>2<i class="far fa-times-circle"></i></li>
+            <li>3<i class="far fa-times-circle"></i></li>
+            <li>4<i class="far fa-times-circle"></i></li>
+            <li>4<i class="far fa-times-circle"></i></li>
+        </ul>
+        <hr>
+        <div id="footer">
+            <p><b id="task-count">0 </b>Task Left</p>
+            <ul id="foot">
+                <li>All</li>
+                <li>Uncomplete</li>
+                <li>Complete</li>
+            </ul>
+        </div>
+    </main>
+    
+    <script src="https://kit.fontawesome.com/652fd62302.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
